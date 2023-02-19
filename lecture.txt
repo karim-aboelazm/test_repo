@@ -34,5 +34,9 @@ $ git init --> to create new repo
 -------------------------
 $ git add . --> to add all data into repo
 --------------------------
+$ git commit -m "message" --> for committing chanages 
+---------------------------
+$ git push ------------> for pushing code into repo online 
+--------------------------
 $ git commit -m "msg"
 ---------------------
