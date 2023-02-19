@@ -1,0 +1,38 @@
+create new folder --> mkdir foldername  
+create new file   --> type nul > filename.txt 
+clear screen      --> cls
+to show all in folder --> dir
+to activate venv   --> Scripts\activate
+to deactivate venv --> Scripts\deactivate.bat
+-------------------------
+enter folder      --> cd foldername
+open file         --> filename.txt 
+run py code       --> py code.py
+-------------------------
+install any python library --> pip install lib_name
+1. virtualenv       --> pip install virtualenv
+2. django           --> pip install django 
+3. pillow(images)   --> pip install pillow 
+4. gunicorn(server) --> pip install gunicorn
+---------------------------
+# Create Django Project 
+------------------------
+1. create virtualenv & activate(Scripts\activate)
+2. create folder
+3. install django , pillow 
+4. pip freeze > requirements.txt
+5. django-admin startproject project .
+6. py manage.py migrate 
+7. py manage.py runserver
+---> 127.0.0.1:8000
+--------------------------
+git       ---       github
+--------------------------
+Create Reposetory
+--------------------------
+$ git init --> to create new repo
+-------------------------
+$ git add . --> to add all data into repo
+--------------------------
+$ git commit -m "msg"
+---------------------
